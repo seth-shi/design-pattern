@@ -1,0 +1,22 @@
+{
+  "name": "waitmoonman/Reflex",
+  "description": "Automatic injection parameters are achieved by reflection！",
+  "keywords": ["waitmoonman", "Reflex", "injection", "依赖注入"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "WaitMoonMan",
+      "email": "1033404553@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Waitmoonman\\Reflex\\": "src/"
+    }
+  }
+}
