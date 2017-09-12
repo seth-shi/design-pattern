@@ -49,12 +49,14 @@ class Singleton
 $single1 = Singleton::getInstance();
 $single2 = Singleton::getInstance();
 
+
+var_dump($single1, $single2);
+
 /*****************************************
-F:\phpStudy\WWW\designPattern\Singleton\index.php:60:
+F:\phpStudy\WWW\designPattern\Singleton\index.php:53:
 class Singleton#1 (0) {
 }
-F:\phpStudy\WWW\designPattern\Singleton\index.php:60:
+F:\phpStudy\WWW\designPattern\Singleton\index.php:53:
 class Singleton#1 (0) {
 }
  */
-var_dump($single1, $single2);

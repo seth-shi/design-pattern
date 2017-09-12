@@ -15,10 +15,10 @@
     * `____wakeup`  防止在外部反序列化对象
 * 通过打印输出，我们可以看到在`class Singleton`后面都有一个`#1`,`#`后面的数字代表整个程序中第几个实例化的对象。两个都是`1`代表整个程序中只实例化了一次对象，这就是单例的由来。
 ```php
-F:\phpStudy\WWW\designPattern\Singleton\index.php:60:
+F:\phpStudy\WWW\designPattern\Singleton\index.php:53:
 class Singleton#1 (0) {
 }
-F:\phpStudy\WWW\designPattern\Singleton\index.php:60:
+F:\phpStudy\WWW\designPattern\Singleton\index.php:53:
 class Singleton#1 (0) {
 }
 ```
