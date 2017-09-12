@@ -49,7 +49,7 @@ class Singleton
 $single1 = Singleton::getInstance();
 $single2 = Singleton::getInstance();
 
-/***************************************
+/*****************************************
 F:\phpStudy\WWW\designPattern\Singleton\index.php:60:
 class Singleton#1 (0) {
 }
