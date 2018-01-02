@@ -1,7 +1,7 @@
 {
-  "name": "waitmoonman/Reflex",
+  "name": "davidnineroc/Reflex",
   "description": "Automatic injection parameters are achieved by reflection！",
-  "keywords": ["waitmoonman", "Reflex", "injection", "依赖注入"],
+  "keywords": ["DavidRoc", "Reflex", "injection", "依赖注入"],
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Waitmoonman\\Reflex\\": "src/"
+      "DavidRoc\\Reflex\\": "src/"
     }
   }
 }

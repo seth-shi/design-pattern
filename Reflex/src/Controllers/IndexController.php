@@ -1,9 +1,9 @@
 <?php
 
-namespace Waitmoonman\Reflex\Controllers;
+namespace DavidNineRoc\Reflex\Controllers;
 
-use Waitmoonman\Reflex\Http;
-use Waitmoonman\Reflex\Request;
+use DavidNineRoc\Reflex\Http;
+use DavidNineRoc\Reflex\Request;
 
 class IndexController
 {

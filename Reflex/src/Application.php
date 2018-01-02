@@ -1,6 +1,6 @@
 <?php
 
-    namespace Waitmoonman\Reflex;
+    namespace DavidNineRoc\Reflex;
 
     use Exception;
     use ReflectionClass;
