@@ -1,11 +1,12 @@
 <?php
-    
-    define('ROOT_PATH', dirname(__FILE__));
 
     // 引入自动加载文件
     require 'AutoLoad.php';
     // 注册加载类
-    spl_autoload_register("AutoLoad::loaded");
+    spl_autoload_register([
+        new AutoLoad(__DIR__),
+        'loaded'
+    ]);
 
 
     // 测试
