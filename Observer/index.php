@@ -27,6 +27,8 @@ interface Observed
     public function detach(Observer $observer);
     // 触发通知
     public function notify();
+    // 获取价格
+    public function getSale();
 }
 
 
@@ -38,7 +40,7 @@ interface Observed
 class Server implements Observed
 {
     // 现有的钱
-    private $sala;
+    private $sale;
     // 观察者 map
     private $observer = [];
 
@@ -82,17 +84,17 @@ class Server implements Observed
     }
 
 
-    public function setSala($sala)
+    public function setSale($sale)
     {
-        $this->sala = $sala;
+        $this->sale = $sale;
 
         // 通知观察者
         $this->notify();
     }
 
-    public function getSala()
+    public function getSale()
     {
-        return $this->sala;
+        return $this->sale;
     }
 }
 
@@ -107,7 +109,7 @@ class Mail implements Observer
         /**
          * 没钱了，发邮件，因为邮件是免费的
          */
-        if ($observed->getSala() < 10000)
+        if ($observed->getSale() < 10000)
         {
             echo '我发邮件也能活着';
         }
@@ -126,7 +128,7 @@ Class SMS implements Observer
         /**
          * 如果工资大于 1w 就发短信
          */
-        if ($observed->getSala() > 10000 && $observed->getSala() < 100000)
+        if ($observed->getSale() > 10000 && $observed->getSale() < 100000)
         {
             echo '钱多发短息';
         }
@@ -146,7 +148,7 @@ class MMS  implements Observer
         /**
          * 钱太多，任性，发彩信
          */
-        if ($observed->getSala() > 100000)
+        if ($observed->getSale() > 100000)
         {
             echo '钱太多，任性，发彩信';
         }
@@ -163,13 +165,13 @@ $server->attach(new SMS());
 $server->attach(new MMS());
 
 // 变更状态 -> 通知
-$server->setSala(1000000);
+$server->setSale(1000000);
 
 // 变更状态 -> 通知
-$server->setSala(99999);
+$server->setSale(99999);
 
 // 变更状态 -> 通知
-$server->setSala(9);
+$server->setSale(9);
 
 /********************************************************
  * 钱太多，任性，发彩信钱多发短息我发邮件也能活着

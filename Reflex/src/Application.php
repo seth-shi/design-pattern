@@ -9,11 +9,11 @@
     class Application
     {
 
-        /*
-         * 动态实例化对象
-         * @param $class
+        /**
+         * @param       $class
          * @param array $parameters
-         * @return mixed
+         * @return object
+         * @throws \ReflectionException
          * @throws Exception
          */
         public static function make($class, $parameters = [])
@@ -92,8 +92,14 @@
 
         /**
          * 动态运行对象的函数
-         * @param $class
-         * @param $method
+         *
+         * @param       $class
+         * @param       $method
+         * @param array $class_parameters
+         * @param array $method_parameters
+         * @return mixed
+         * @throws \ReflectionException
+         * @throws Exception
          */
         public static function run($class, $method, $class_parameters = [], $method_parameters = [])
         {
