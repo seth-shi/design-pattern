@@ -4,5 +4,9 @@ namespace Filters;
 
 interface FilterContract
 {
-    public function handle(string $filter);
+    /**
+     * @param $filter string
+     * @return string
+     */
+    public function handle($filter);
 }

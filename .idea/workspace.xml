@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c1d9b4-6355-47d8-b99f-47c219dbd3b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Pipeline/Filters/FilterContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimC.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoload/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Autoload/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/Pipeline.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Pipeline.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/Filters/FilterContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Filters/FilterContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/Filters/TrimA.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/Filters/TrimB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/Filters/TrimC.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/Filters/TrimString.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/Filters/TrimString.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipeline/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -35,8 +32,8 @@
       <file leaf-file-name="Pipeline.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipeline/Pipeline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="218">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,8 +41,17 @@
       <file leaf-file-name="TrimString.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimString.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterContract.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pipeline/Filters/FilterContract.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -53,8 +59,8 @@
       <file leaf-file-name="TrimA.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimA.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -62,17 +68,17 @@
       <file leaf-file-name="TrimB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="162">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrimC.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrimC.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimC.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="198">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -90,13 +96,13 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Autoload/index.php" />
         <option value="$PROJECT_DIR$/Autoload/load.php" />
-        <option value="$PROJECT_DIR$/Pipeline/Filters/FilterContract.php" />
-        <option value="$PROJECT_DIR$/Pipeline/index.php" />
         <option value="$PROJECT_DIR$/Pipeline/Pipeline.php" />
-        <option value="$PROJECT_DIR$/Pipeline/Filters/TrimString.php" />
+        <option value="$PROJECT_DIR$/Pipeline/index.php" />
         <option value="$PROJECT_DIR$/Pipeline/Filters/TrimA.php" />
         <option value="$PROJECT_DIR$/Pipeline/Filters/TrimB.php" />
         <option value="$PROJECT_DIR$/Pipeline/Filters/TrimC.php" />
+        <option value="$PROJECT_DIR$/Pipeline/Filters/TrimString.php" />
+        <option value="$PROJECT_DIR$/Pipeline/Filters/FilterContract.php" />
       </list>
     </option>
   </component>
@@ -188,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531453562744</updated>
-      <workItem from="1531453564045" duration="4885000" />
+      <workItem from="1531453564045" duration="5560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4885000" />
+    <option name="totallyTimeSpent" value="5560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -313,52 +319,52 @@
         <state relative-caret-position="-108" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pipeline/Filters/FilterContract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pipeline/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pipeline/Pipeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimString.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimA.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="108">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="162">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimC.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipeline/Filters/TrimString.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipeline/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipeline/Pipeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipeline/Filters/FilterContract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>

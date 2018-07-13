@@ -5,7 +5,11 @@ namespace Filters;
 
 class TrimString implements FilterContract
 {
-    public function handle(string $filter)
+    /**
+     * @param $filter string
+     * @return string
+     */
+    public function handle($filter)
     {
         return str_replace('afsd', '', $filter);
     }
