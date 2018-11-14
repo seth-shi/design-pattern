@@ -22,7 +22,7 @@ class HashTable
      *
      * @var HashLink[]
      */
-    public $data;
+    protected $data;
 
 
     /**
