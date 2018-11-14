@@ -14,8 +14,7 @@
 * `DI`        [依赖注入](DI)
 * `Ioc`       [容器](Ioc)
 * `Pipeline`  [管道设计](Pipeline)
-***
-* `Redis`     [Redis入门](Redis)
+
 
 ## Issure
 * 有什么意见或者疑惑可以提 issue
