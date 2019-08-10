@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DavidRoc\\Reflex\\": "src/"
+      "DavidNineRoc\\Reflex\\": "src/"
     }
   }
 }
